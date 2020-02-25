@@ -13,6 +13,19 @@ body {
 
 }
 
+.portada{
+    
+    width: auto;
+    height: 200px;
+    
+}
+
+.f-grow{
+
+	flex-grow: 1;
+
+}
+
 h1{
 
 	font: normal Verdana, Geneva, sans-serif;
@@ -49,20 +62,21 @@ section{
 
 .d-flex{
 
-	float: left;
-        border: 1px solid gray;
+        display: flex;
+        
 }
 
 .column{
     
-    float: left;
-    /*margin-top: 20px;*/
+    flex-direction: column;
+    /*border: 1px solid gray;*/
    
 }
 
 .row{
     
-    float: top;
+    flex-direction: row;
+    border: 1px solid gray;
     
 }
 
@@ -73,7 +87,19 @@ section{
     
 }
 
-figure img{
+.justify-content-center{
+    
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+
+.justify-content-around{
+    
+   flex-wrap: nowrap;
+   justify-content: space-around;
+}
+
+.figure{
 
 	padding: 4px;
 	/*background: gray;*/
@@ -82,7 +108,7 @@ figure img{
 	/*box-shadow: gray 10px 10px 15px;*/
 }
 
-figure img:hover{
+.figure:hover{
 
 	-webkit-transform:scale(1.3);
 }
