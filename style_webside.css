@@ -16,15 +16,15 @@ body {
 h1{
 
 	font: normal Verdana, Geneva, sans-serif;
-	background: -webkit-linear-gradient(top, blue, white);
+	background: -webkit-linear-gradient(top, green, white);
 	width: 50%;
 	border-radius: 10px;
 	margin: 15px auto;
 	text-align: center;
 	padding: 15px;
 	color: white;
-	box-shadow: blue 5px 5px 10px;
-	text-shadow: white 2px 2px 3px;
+	box-shadow: darkgray 5px 5px 10px;
+	text-shadow: gray 2px 2px 3px;
 }
 
 h2{
@@ -42,11 +42,18 @@ section{
 	margin: 15px auto;
 }
 
-figure{
+.d-flex{
 
 	float: left;
 	margin-top: 50px;
 	margin-left: 100px;
+}
+
+.row{
+    
+    float: left;
+    margin-top: 20px;
+   
 }
 
 figure img{
